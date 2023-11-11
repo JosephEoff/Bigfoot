@@ -11,4 +11,7 @@ It uses feedback through a tachometer and a PID controller to maintain the speed
 
 Here's Bigfoot and the Adler working through eight layers of fake leather:
 
+![Bigfoot demo](https://vimeo.com/883578648)
+
 <iframe src="https://player.vimeo.com/video/883578648?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" width="768" height="576" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Bigfoot"></iframe>
+
