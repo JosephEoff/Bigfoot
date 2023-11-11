@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name RECOM)(type Legacy)(uri ${KIPRJMOD}/RECOM.lib)(options "")(descr ""))
+  (lib (name On_Semiconductor)(type Legacy)(uri ${KIPRJMOD}/On_Semiconductor.lib)(options "")(descr ""))
+  (lib (name Analog_Devices_GateDriver)(type Legacy)(uri ${KIPRJMOD}/Analog_Devices_GateDriver.lib)(options "")(descr ""))
+  (lib (name MotorSpeedControl-rescue)(type Legacy)(uri ${KIPRJMOD}/MotorSpeedControl-rescue.lib)(options "")(descr ""))
+)

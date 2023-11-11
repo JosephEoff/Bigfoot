@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name RECOM)(type KiCad)(uri ${KIPRJMOD}/RECOM.pretty)(options "")(descr ""))
+  (lib (name Diodes_Inc_Bridge_Rectifier)(type KiCad)(uri ${KIPRJMOD}/Diodes_Inc_Bridge_Rectifier.pretty)(options "")(descr ""))
+  (lib (name Analog_Devices_GateDriver)(type KiCad)(uri ${KIPRJMOD}/Analog_Devices_GateDriver.pretty)(options "")(descr ""))
+  (lib (name TT_Electronics)(type KiCad)(uri ${KIPRJMOD}/TT_Electronics.pretty)(options "")(descr ""))
+)
