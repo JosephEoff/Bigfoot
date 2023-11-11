@@ -3,7 +3,7 @@ Bigfoot is a sewing machine motor speed control made to truly control the speed 
 
 |Bigfoot and an Adler class 8 sewing machine|
 |------------------------------------------|
-|![Bigfoot and an Adler class 8 sewing machine](Pictures/1.jpg)|
+|![Bigfoot and an Adler class 8 sewing machine](Pictures/Bigfoot.jpg)|
 
 It uses feedback through a tachometer and a PID controller to maintain the speed set by the foot pedal.  A sewing machine with a Bigfoot controller can steadily work its way through thick stacked leather - provided you are using a solid old vintage sewing machine.
 
