@@ -1,0 +1,10 @@
+I used these photointerrupter modules for the tachometer:
+https://www.amazon.de/gp/product/B0817H9436/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+
+They included a slotted disc with 20 slots.
+
+The modules have to be modified.  See the images "circuit1.png" and "module1.png" in this folder.
+
+Remove the part marked C1, then replace the part marked R1 with a 750 ohm resistor.
+
+Those two changes will make the output reliable up to 20000 RPM and symmetrical at all speeds.
