@@ -78,12 +78,12 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 62C64B20
-P 1400 5000
-F 0 "#PWR0102" H 1400 4750 50  0001 C CNN
-F 1 "GND" H 1405 4827 50  0000 C CNN
-F 2 "" H 1400 5000 50  0001 C CNN
-F 3 "" H 1400 5000 50  0001 C CNN
-	1    1400 5000
+P 1400 5200
+F 0 "#PWR0102" H 1400 4950 50  0001 C CNN
+F 1 "GND" H 1405 5027 50  0000 C CNN
+F 2 "" H 1400 5200 50  0001 C CNN
+F 3 "" H 1400 5200 50  0001 C CNN
+	1    1400 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -186,13 +186,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 62F797BB
-P 5500 1200
-F 0 "J2" V 5350 1200 50  0000 C CNN
-F 1 "AC IN" V 5200 1200 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 5500 1200 50  0001 C CNN
-F 3 "~" H 5500 1200 50  0001 C CNN
-	1    5500 1200
-	0    1    1    0   
+P 4800 1150
+F 0 "J2" H 4900 1400 50  0000 C CNN
+F 1 "AC IN" H 4900 1500 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 4800 1150 50  0001 C CNN
+F 3 "~" H 4800 1150 50  0001 C CNN
+	1    4800 1150
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Bridge_+AA- D1
@@ -208,26 +208,22 @@ $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q1
 U 1 1 63A9F0C9
-P 9500 3450
-F 0 "Q1" H 9705 3496 50  0000 L CNN
-F 1 "NTPF190N65S3H" H 9705 3405 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9700 3550 50  0001 C CNN
-F 3 "~" H 9500 3450 50  0001 C CNN
-	1    9500 3450
+P 9950 3450
+F 0 "Q1" H 10155 3496 50  0000 L CNN
+F 1 "NTPF190N65S3H" H 10155 3405 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10150 3550 50  0001 C CNN
+F 3 "~" H 9950 3450 50  0001 C CNN
+	1    9950 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 6600 2800 6650
-Wire Wire Line
-	5600 1400 5600 2700
 Wire Wire Line
 	8050 2850 8050 2550
 Wire Wire Line
 	6750 3400 6900 3400
 Wire Wire Line
 	8050 3650 8050 3450
-Wire Wire Line
-	9600 3650 8800 3650
 $Comp
 L Device:R R1
 U 1 1 63AB5AB6
@@ -239,21 +235,17 @@ F 3 "~" H 7700 4750 50  0001 C CNN
 	1    7700 4750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9000 3450 9300 3450
 $Comp
 L Diode:1N4005 D2
 U 1 1 63AB8F9D
-P 9200 2900
-F 0 "D2" V 9154 2980 50  0000 L CNN
-F 1 "1N4005" V 9245 2980 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P12.70mm_Horizontal" H 9200 2725 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9200 2900 50  0001 C CNN
-	1    9200 2900
+P 9650 2850
+F 0 "D2" V 9604 2930 50  0000 L CNN
+F 1 "1N4005" V 9695 2930 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P12.70mm_Horizontal" H 9650 2675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9650 2850 50  0001 C CNN
+	1    9650 2850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9600 3150 9600 3250
 Connection ~ 2800 6650
 Wire Wire Line
 	2800 6650 2800 6700
@@ -266,27 +258,14 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x03_Female J3
 U 1 1 63AC9942
-P 9800 2800
-F 0 "J3" H 9828 2826 50  0000 L CNN
-F 1 "Motor" H 9828 2735 50  0000 L CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 9800 2800 50  0001 C CNN
-F 3 "~" H 9800 2800 50  0001 C CNN
-	1    9800 2800
+P 10350 2800
+F 0 "J3" H 10378 2826 50  0000 L CNN
+F 1 "Motor" H 10378 2735 50  0000 L CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 10350 2800 50  0001 C CNN
+F 3 "~" H 10350 2800 50  0001 C CNN
+	1    10350 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2550 9600 2700
-Wire Wire Line
-	9600 2900 9600 3150
-Connection ~ 9600 3150
-Wire Wire Line
-	5500 1400 5500 2250
-Wire Wire Line
-	5500 2250 9400 2250
-Wire Wire Line
-	9400 2250 9400 2800
-Wire Wire Line
-	9400 2800 9600 2800
 Wire Wire Line
 	7750 2900 7750 3150
 Wire Wire Line
@@ -332,8 +311,6 @@ Wire Wire Line
 	5600 3200 5650 3200
 Connection ~ 5600 2700
 Wire Wire Line
-	5400 1400 5400 2900
-Wire Wire Line
 	5400 3400 5650 3400
 Wire Wire Line
 	5300 3200 5600 3200
@@ -368,8 +345,6 @@ Wire Wire Line
 	6200 4300 6200 4450
 Wire Wire Line
 	6200 4450 6050 4450
-Wire Wire Line
-	9000 3450 9000 4750
 Wire Wire Line
 	5050 4750 4450 4750
 Wire Wire Line
@@ -416,17 +391,7 @@ Connection ~ 1850 4750
 Wire Wire Line
 	1850 4750 1850 5500
 Wire Wire Line
-	1400 5000 1400 4950
-Wire Wire Line
 	1400 4950 1200 4950
-Wire Wire Line
-	1700 4850 1700 5300
-Wire Wire Line
-	1700 5300 2100 5300
-Wire Wire Line
-	2100 5300 2100 5600
-Wire Wire Line
-	1200 4850 1700 4850
 Wire Wire Line
 	2100 5600 2300 5600
 $Comp
@@ -450,17 +415,6 @@ Wire Wire Line
 Connection ~ 8800 3650
 Wire Wire Line
 	8800 3650 8050 3650
-Wire Wire Line
-	8800 2550 9200 2550
-Wire Wire Line
-	9200 3050 9200 3150
-Wire Wire Line
-	9200 3150 9600 3150
-Wire Wire Line
-	9200 2750 9200 2550
-Connection ~ 9200 2550
-Wire Wire Line
-	9200 2550 9600 2550
 $Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 63AF559F
@@ -504,19 +458,14 @@ Wire Wire Line
 $Comp
 L power:Earth_Protective #PWR02
 U 1 1 63B06C72
-P 10500 2350
-F 0 "#PWR02" H 10750 2100 50  0001 C CNN
-F 1 "Earth_Protective" H 10950 2200 50  0001 C CNN
-F 2 "" H 10500 2250 50  0001 C CNN
-F 3 "~" H 10500 2250 50  0001 C CNN
-	1    10500 2350
+P 10850 2350
+F 0 "#PWR02" H 11100 2100 50  0001 C CNN
+F 1 "Earth_Protective" H 11300 2200 50  0001 C CNN
+F 2 "" H 10850 2250 50  0001 C CNN
+F 3 "~" H 10850 2250 50  0001 C CNN
+	1    10850 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 2350 10500 2250
-Wire Wire Line
-	10500 2250 9400 2250
-Connection ~ 9400 2250
 $Comp
 L RECOM:RAC10E-12SK U1
 U 1 1 63B23D1C
@@ -541,8 +490,6 @@ F 3 "" H 6100 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 4750 7550 4750
-Wire Wire Line
-	7850 4750 9000 4750
 Wire Wire Line
 	5400 2900 7750 2900
 Wire Wire Line
@@ -590,4 +537,140 @@ Wire Wire Line
 Connection ~ 3800 6650
 Wire Wire Line
 	3800 6650 2800 6650
+Wire Wire Line
+	1400 4950 1400 5200
+Wire Wire Line
+	1200 4850 2100 4850
+Wire Wire Line
+	2100 4850 2100 4950
+$Comp
+L Device:R R3
+U 1 1 6551783C
+P 1650 4950
+F 0 "R3" V 1550 4950 50  0000 C CNN
+F 1 "100k" V 1450 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1580 4950 50  0001 C CNN
+F 3 "~" H 1650 4950 50  0001 C CNN
+	1    1650 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 4950 1400 4950
+Connection ~ 1400 4950
+Wire Wire Line
+	1800 4950 2100 4950
+Connection ~ 2100 4950
+Wire Wire Line
+	2100 4950 2100 5600
+$Comp
+L Connector:Conn_01x03_Male #J5
+U 1 1 65520736
+P 2750 1150
+F 0 "#J5" H 2850 1450 50  0000 C CNN
+F 1 "C14 Connector" H 2900 1550 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 2750 1150 50  0001 C CNN
+F 3 "~" H 2750 1150 50  0001 C CNN
+	1    2750 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1050 5600 2700
+Wire Wire Line
+	5500 1150 5500 2250
+Wire Wire Line
+	5400 1250 5400 2900
+Wire Wire Line
+	5000 1250 5400 1250
+Wire Wire Line
+	5000 1150 5500 1150
+Wire Wire Line
+	5000 1050 5600 1050
+$Comp
+L Device:Fuse #F1
+U 1 1 6554E23B
+P 3700 1050
+F 0 "#F1" V 3503 1050 50  0000 C CNN
+F 1 "1A slow" V 3594 1050 50  0000 C CNN
+F 2 "" V 3630 1050 50  0001 C CNN
+F 3 "~" H 3700 1050 50  0001 C CNN
+	1    3700 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male #J6
+U 1 1 65556AC8
+P 4550 1150
+F 0 "#J6" H 4650 900 50  0000 C CNN
+F 1 "Fused AC" H 4650 800 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 4550 1150 50  0001 C CNN
+F 3 "~" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 1150 4350 1150
+Wire Wire Line
+	4350 1250 2950 1250
+Wire Wire Line
+	3850 1050 4350 1050
+Wire Wire Line
+	2950 1050 3550 1050
+Wire Wire Line
+	10850 2350 10850 2250
+Wire Wire Line
+	10150 2700 10150 2550
+Wire Wire Line
+	9950 2800 9950 2250
+Connection ~ 9950 2250
+Wire Wire Line
+	9950 2250 10850 2250
+Wire Wire Line
+	5500 2250 9950 2250
+Wire Wire Line
+	10150 2900 10050 2900
+Wire Wire Line
+	10050 2900 10050 3000
+Wire Wire Line
+	9950 2800 10150 2800
+Wire Wire Line
+	8800 2550 9250 2550
+Wire Wire Line
+	9650 2700 9650 2550
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 10150 2550
+Wire Wire Line
+	9650 3000 10050 3000
+Connection ~ 10050 3000
+Wire Wire Line
+	10050 3000 10050 3250
+Wire Wire Line
+	8800 3650 9250 3650
+Wire Wire Line
+	9750 3450 9650 3450
+Wire Wire Line
+	9650 3450 9650 4750
+Wire Wire Line
+	7850 4750 9650 4750
+$Comp
+L Device:R R4
+U 1 1 65593B75
+P 9250 3100
+F 0 "R4" H 9320 3146 50  0000 L CNN
+F 1 "470k 0.25W" H 9320 3055 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9180 3100 50  0001 C CNN
+F 3 "~" H 9250 3100 50  0001 C CNN
+	1    9250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2950 9250 2550
+Connection ~ 9250 2550
+Wire Wire Line
+	9250 2550 9650 2550
+Wire Wire Line
+	9250 3250 9250 3650
+Connection ~ 9250 3650
+Wire Wire Line
+	9250 3650 10050 3650
 $EndSCHEMATC
